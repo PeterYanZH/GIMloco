@@ -4,7 +4,7 @@ PyTorch implementation of the GIMloco method, which is based on [HIMloco](https:
 
 Method is trained and tested on [IsaacGymEnvs](https://github.com/isaac-sim/IsaacGymEnvs).
 
-Networks are trained using [PyTorch 1.2](https://github.com/pytorch/pytorch) and Python 3.7.
+Networks are trained using [PyTorch](https://github.com/pytorch/pytorch) and Python 3.8.
 
 ### Usage
 
@@ -22,9 +22,11 @@ The hyperparameters of GIM include the decay rate, length of observation history
 
 ### Bibtex
 
+```
 @inproceedings{yan2025GIMloco,
 title={GIMloco: Generic Internal Model-Based Locomotion for Quadruped Robots},
 author={Zhonghuai Yan, Quan Quan},
 booktitle={2026 IEEE International Conference on Robotics and Automation (ICRA)},
 year={2026}
 }
+```
